@@ -1,0 +1,85 @@
+body{
+	height: 730px;
+}
+.header{
+	height: 120px;
+	text-align: center;
+	/*background: #6be5cf;*/
+	border: 3px solid orange;
+	padding:0;
+	margin: 0;
+	font-size: 25px;
+	line-height: 120px;
+	/*font-weight: 700;*/
+}
+.header > span{
+	font-size: 50px;
+}
+#main-row{
+	height: 100%;
+}
+.main-row2{
+	height: 100%;
+}
+#left-div{
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-right: 1px;
+}
+#right-div{
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-right: 1px;
+}
+.ul{
+	padding: 0;
+	margin: 0;
+}
+.li{
+	display: block;
+	height: 50px;
+	border-bottom: 1px solid cyan;
+	line-height: 50px;
+	font-size: 20px;
+	color: #ddd;
+	padding-left: 10px;
+}
+.li:hover{
+	background: #ccc;
+	transition: 0.2s linear;
+	color: #333;
+}
+.main-row2>div{
+	height: 100%;
+	padding: 20px;
+}
+#mumbai-main-div{
+	border: 1px solid #999;
+	height: 100%;
+	background: url('mumbai2.jpg');
+	background-position: center;
+	background-size: cover;
+	opacity: 0.9;
+	font-size: 55px;
+	letter-spacing: -2px;
+	color: black;
+	padding-top: 500px;
+	text-align: center;
+}
+#delhi-main-div{
+
+	border: 1px solid #999;
+	height: 100%;
+	background: url('delhi2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	font-size: 55px;
+	letter-spacing: -2px;
+	color: #333;
+	padding-top: 500px;
+	text-align: center;
+}
